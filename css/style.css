@@ -8,6 +8,72 @@ body {
     padding:0;
 }
 
+/*Zentrierung von Kopfbereich, Hauptbereich und Footer*/
+
+header .inner, #main .inner, footer .inner {
+    width: 990px;
+    margin: auto;
+}
+
+/*Navigation*/
+
+nav > ul {
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav > ul > li > a {
+    display: block;
+    font-size: 24px;
+    color: #337ab7;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav > ul > li > ul {
+    display: none;
+    color: #337ab7;
+    position: absolute;
+    left:0;
+    margin:0;
+    padding: 0;
+    width: 250px;
+    text-decoration: none;
+    background: white;
+}
+
+nav > ul > li > ul > li > a:hover {
+    background: #337ab7;
+    color: white;
+}
+
+nav > ul > li:hover > ul {
+    display:block;
+}
+
+nav > ul > li > ul > li > a {
+    color: #337ab7;
+    font-size: 16px;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > ul > li > ul > li {
+    display: block;
+    color: #337ab7;
+    text-decoration: none;
+    list-style: none;
+}
+
+
 .logo {
     font-size:30px;
     text-transform: uppercase;

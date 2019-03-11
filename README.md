@@ -30,3 +30,4 @@ In Git bezeichnet man mit Branch einen Entwicklungszweig. Nützlich zur Entwickl
 
 Git ist ein Version Control System. Nennen Sie 2 weitere. Subversion, Mercurial
 
+
